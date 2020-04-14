@@ -396,7 +396,7 @@ def train(env, agent,file_name, max_episode_steps=1000,max_episodes=500, eval_ep
   np.save("%s" % (file_name+'final_eval'), evaluations) 
   return scores
 
-"""#Main file: train.py"""
+"""#Main file: main.py"""
 
 if not os.path.exists("./results"):
 		os.makedirs("./results")
