@@ -15,16 +15,16 @@ Code structure:
 * Class Critic(): Inherited from torch.nn.Module, defines the critic network structure 
 * Class TD3Agent():
 
- learn():implements the core TD3 logic
- 
- act(): executes current policy from a given state via forward pass on the local actor
- 
- soft_update(): polyak averaging of the local and target network parameters
- 
- hard update(): copies local network parameters to target network parameters
- 
- save_checkpoints():saves trained weights
- 
- load_checkpoints():loads trainged weights
- 
+   learn():implements the core TD3 logic
+
+   act(): executes current policy from a given state via forward pass on the local actor
+
+   soft_update(): polyak averaging of the local and target network parameters
+
+   hard update(): copies local network parameters to target network parameters
+
+   save_checkpoints():saves trained weights
+
+   load_checkpoints():loads trainged weights
+
 ![score](./results/eval_score.png)
