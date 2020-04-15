@@ -1,11 +1,12 @@
-### TD3 implementation in PyTorch for PyBullet environments. 
- Simply run the notebook on Google Collab.
+### TD3 implementation in PyTorch for PyBullet environments
 
-Fujimoto, Scott, Herke Van Hoof, and David Meger. "Addressing function approximation error in actor-critic methods." arXiv preprint arXiv:1802.09477 (2018).
+Fujimoto, Scott, Herke Van Hoof, and David Meger. "Addressing function approximation error in actor-critic methods." arXiv:1802.09477 (2018).
 
 
 ![cheetah](./results/cheetah_training.gif)
 ![ant](./results/ant_trained.gif)
+
+Simply run the notebook on Google Collab.
 
 Code structure:
 * evaluate_policy(): computes the return for the current policy over an evaluation period
