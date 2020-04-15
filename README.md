@@ -1,4 +1,4 @@
-# DeepRL-TD3-PyBullet
+# TD3-Locomotion-Examples
  TD3 implementation in PyTorch for PyBullet environments.
 
 Fujimoto, Scott, Herke Van Hoof, and David Meger. "Addressing function approximation error in actor-critic methods." arXiv preprint arXiv:1802.09477 (2018).
