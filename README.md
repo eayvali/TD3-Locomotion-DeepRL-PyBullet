@@ -26,6 +26,6 @@ Code structure:
 
    save_checkpoints():saves trained weights
 
-   load_checkpoints():loads trainged weights
+   load_checkpoints():loads trained weights
 
 ![score](./results/eval_score.png)
