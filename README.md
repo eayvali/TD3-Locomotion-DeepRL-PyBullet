@@ -10,7 +10,7 @@ Simply run the notebook on Google Collab.
 
 Code structure:
 * evaluate_policy(): computes the return for the current policy over an evaluation period
-* train(): main function that implements episodic training
+* train(): main function that implements training
 * Class ReplayBuffer(): defines experience replay memory and add/sample experience methods
 * Class Actor(): Inherited from torch.nn.Module, defines the actor network structure 
 * Class Critic(): Inherited from torch.nn.Module, defines the critic network structure 
